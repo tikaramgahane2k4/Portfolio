@@ -1,0 +1,332 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('portfolio_img.avif');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+/* Header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.name {
+  font-size: 40px;
+  color: white;
+}
+
+.name::first-letter {
+  color: red;
+}
+
+.nav_bar {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+}
+
+.items {
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.items:hover {
+  border: 1px solid red;
+  border-radius: 40% 5%;
+  background-color: green;
+}
+
+/* About Me Section */
+.about_me {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5%;
+  gap: 40px;
+}
+
+.text_section {
+  max-width: 600px;
+}
+
+.highlight {
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.subheading {
+  color: lightcoral;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.what_i_do {
+  color: greenyellow;
+  font-size: 20px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.text li {
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+/* Image Section */
+.image_section {
+  max-width: 400px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #222;
+  color: #f1f1f1;
+  padding: 5px 20px;
+  text-align: center;
+  border: 2px solid;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.footer_section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00dfc4;
+}
+
+.footer_section {
+  max-width: 800px;
+  margin: 0 0 0 1rem;
+  padding: auto 10px;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  gap: 100px;
+
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons a {
+  padding: 0 12px;
+  font-size: 2.5rem;
+}
+
+.icons a:hover {
+  font-size: 3rem;
+}
+
+.contact_me {
+  margin-top: 14px;
+}
+
+.contact_me h3 {
+  color: lightgreen;
+}
+
+/* Responsive Design */
+/* For Mobile and small device */
+
+@media (max-width: 1024px) {
+
+  .name {
+    margin-top: 8px;
+  }
+
+  .about_me {
+    flex-direction: column-reverse;
+  }
+
+  .nav_bar {
+    flex-direction: row;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .details {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name {
+    margin-top: 15px;
+  }
+
+  .items {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .nav_bar {
+    flex-direction: column;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 0;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .icons a {
+    padding: 0 8px;
+    font-size: 2.5rem;
+    gap: 200px;
+  }
+}
+
+
+@media (max-width: 320px) {
+
+  .nav_bar {/* For Mobile and small device */
+
+@media (max-width: 1024px) {
+
+  .name {
+    margin-top: 8px;
+  }
+
+  .about_me {
+    flex-direction: column-reverse;
+  }
+
+  .nav_bar {
+    flex-direction: row;
+  }
+
+  .icons {
+    margin-top: 10px;
+  }
+
+  .details {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name {
+    margin-top: 15px;
+  }
+
+  .items {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .nav_bar {
+    flex-direction: column;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 0;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .icons a {
+    padding: 0 8px;
+    font-size: 2.5rem;
+    gap: 200px;
+  }
+}
+
+
+@media (max-width: 320px) {
+
+  .nav_bar {
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+  footer {
+    margin-top: -1px;
+    padding: 0%;
+  }
+
+  .contact_me {
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+  }
+}
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+  footer {
+    margin-top: -1px;
+    padding: 0%;
+  }
+
+  .contact_me {
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+  }
+}
