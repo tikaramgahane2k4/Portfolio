@@ -72,7 +72,8 @@ a {
   display: flex;
   flex-direction: column;
   padding: 80px;
-  border: 2px solid red;
+  border: 1px solid red;
+  box-shadow: 2px 5px 40px 15px;
   width: 40%;
   margin-top: 80px;
 }
@@ -214,7 +215,14 @@ footer {
     font-size: 20px;
     padding-left: 15px;
   }
-
+  #first_name{
+    width: 250px;
+    margin-left: -25px;
+  }
+  #last_name{
+    width: 250px;
+    margin-left: -25px;
+  }
   .gmail {
     width: 250px;
     margin-left: -25px;
@@ -247,6 +255,14 @@ footer {
   input {
     font-size: 20px;
     padding-left: 5px;
+  }
+  #first_name{
+    width: 220px;
+    margin-left: -30px;
+  }
+  #last_name{
+    width: 220px;
+    margin-left: -30px;
   }
 
   #user_gmail {
