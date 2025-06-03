@@ -228,92 +228,9 @@ footer {
   }
 }
 
-
-@media (max-width: 320px) {
-
-  .nav_bar {/* For Mobile and small device */
-
-@media (max-width: 1024px) {
-
-  .name {
-    margin-top: 8px;
-  }
-
-  .about_me {
-    flex-direction: column-reverse;
-  }
-
-  .nav_bar {
-    flex-direction: row;
-  }
-
-  .icons {
-    margin-top: 10px;
-  }
-
-  .details {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .name {
-    margin-top: 15px;
-  }
-
-  .items {
-    margin-left: 0%;
-  }
-}
-
-@media (max-width: 425px) {
-
-  .nav_bar {
-    flex-direction: column;
-  }
-
-  .details {
-    flex-direction: column;
-    gap: 0;
-  }
-
-}
-
-@media (max-width: 375px) {
-
-  .icons a {
-    padding: 0 8px;
-    font-size: 2.5rem;
-    gap: 200px;
-  }
-}
-
-
 @media (max-width: 320px) {
 
   .nav_bar {
-    margin: 0;
-    padding: 0;
-    gap: 5px;
-  }
-
-  footer {
-    margin-top: -1px;
-    padding: 0%;
-  }
-
-  .contact_me {
-    margin: 0%;
-    padding: 0%;
-    font-size: 15px;
-  }
-}
     margin: 0;
     padding: 0;
     gap: 5px;

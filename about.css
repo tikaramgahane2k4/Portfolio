@@ -269,6 +269,11 @@ footer {
     margin-left: 35px;
     margin-right: 0;
   }
+  .icons a {
+    padding: 0 8px;
+    font-size: 2.5rem;
+    gap: 200px;
+  }
 }
 
 @media (max-width: 320px) {

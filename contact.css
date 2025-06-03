@@ -215,14 +215,17 @@ footer {
     font-size: 20px;
     padding-left: 15px;
   }
-  #first_name{
+
+  #first_name {
     width: 250px;
     margin-left: -25px;
   }
-  #last_name{
+
+  #last_name {
     width: 250px;
     margin-left: -25px;
   }
+
   .gmail {
     width: 250px;
     margin-left: -25px;
@@ -230,6 +233,11 @@ footer {
 
   button {
     margin-top: 100px;
+  }
+  .icons a {
+    padding: 0 8px;
+    font-size: 2.5rem;
+    gap: 200px;
   }
 }
 
@@ -256,11 +264,13 @@ footer {
     font-size: 20px;
     padding-left: 5px;
   }
-  #first_name{
+
+  #first_name {
     width: 220px;
     margin-left: -30px;
   }
-  #last_name{
+
+  #last_name {
     width: 220px;
     margin-left: -30px;
   }
